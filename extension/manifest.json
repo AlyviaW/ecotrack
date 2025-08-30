@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "EcoTrack – Carbon Smart Actions",
+  "version": "0.1.0",
+  "description": "Log sustainable actions and earn eco points.",
+  "permissions": ["storage"],
+  "background": { "service_worker": "sw.js" },
+  "action": {
+    "default_title": "EcoTrack",
+    "default_popup": "popup.html"
+  }
+}
